@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="@color/purple"
+    >
+
+    <TextView
+        android:id="@+id/textview_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vamos começar?"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+        android:hint="Qual seu nome?"
+        android:textColorHint="@color/white"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:gravity="center"
+        android:text="Salvar"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/dark_purple"
+        />
+
+
+</RelativeLayout>
