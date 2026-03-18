@@ -1,4 +1,4 @@
-package br.com.denis.motivationproject
+package br.com.denis.motivationproject.UI
 
 import android.os.Bundle
 import android.view.View
@@ -6,7 +6,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import br.com.denis.motivationproject.R
 import br.com.denis.motivationproject.databinding.ActivityUserBinding
+import br.com.denis.motivationproject.helpers.SecurityPreferences
 
 class UserActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -37,6 +39,7 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun handleSave(){
+        SecurityPreferences(applicationContext)
 
     }
 
