@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotivationProject</string>
+    <string name="ol_kotlin">Hello, Kotlin</string>
+    <string name="nova_frase">New Phrase</string>
+    <string name="vamos_come_ar">Shall we start?</string>
+    <string name="phrase_conteudo">Risks must be taken, because the greatest danger is not risking anything at all!</string>
+    <string name="edittext_username">What\'s your name?</string>
+    <string name="salve">Save</string>
+</resources>

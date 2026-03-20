@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotivationProject</string>
+    <string name="ol_kotlin">Hei, Kotlin</string>
+    <string name="nova_frase">Uusi lause</string>
+    <string name="vamos_come_ar">Aloitetaanko?</string>
+    <string name="phrase_conteudo">Riskejä täytyy ottaa, sillä suurin vaara on olla ottamatta mitään riskiä!</string>
+    <string name="edittext_username">Mikä sinun nimesi on?</string>
+    <string name="salve">Tallenna</string>
+
+</resources>

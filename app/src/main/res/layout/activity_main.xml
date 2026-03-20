@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/view_phrase_menu"
         android:layout_marginTop="32dp"
-        android:text="Olá, Kotlin"
+        android:text="@string/ol_kotlin"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         />
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Riscos devem ser corridos, porque o maior perigo é não arriscar nada!"
+        android:text="@string/phrase_conteudo"
         android:gravity="center"
         android:textStyle="bold"
         android:layout_centerInParent="true"
@@ -86,9 +86,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="#7F2AFF"
+        android:backgroundTint="@color/purple"
         android:layout_marginBottom="32dp"
-        android:text="Nova Frase"
+        android:text="@string/nova_frase"
         />
 
 

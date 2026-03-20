@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MotivationProject</string>
+    <string name="ol_kotlin">Olá, Kotlin</string>
+    <string name="nova_frase">Nova Frase</string>
+    <string name="vamos_come_ar">Vamos começar?</string>
+    <string name="phrase_conteudo">Riscos devem ser corridos, porque o maior perigo é não arriscar nada!</string>
+    <string name="edittext_username">Qual seu nome?</string>
+    <string name="salve">Salvar</string>
 </resources>
